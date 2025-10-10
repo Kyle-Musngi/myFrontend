@@ -9,10 +9,16 @@ export default function Homepage({navigation}) {
             <View style={styles.Header}>
                 <Text style={styles.Text}>Homepage</Text>
             </View>
-            <View>
+            <View style={styles.button}>
                 <Button
                 title="Register"
                 onPress={() => navigation.navigate("Register")}
+                />
+            </View>
+            <View style={styles.button}>
+                <Button 
+                title="User List"
+                onPress={() => navigation.navigate("UserList")}
                 />
             </View>
         </View>

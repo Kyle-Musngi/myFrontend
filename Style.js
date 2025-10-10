@@ -46,4 +46,43 @@ export const styles = StyleSheet.create({
   alignSelf: "center", // center buttons},
   },
 
+  userCon: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#f9f9f9',
+  },
+
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 16,
+    textAlign: 'center',
+  },
+
+  Card: {
+    backgroundColor: '#ffffffff',
+    padding: 16,
+    borderRadius: 10,
+    marginBottom: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3, // for Android shadow
+  },
+
+  BText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#222',
+    marginBottom: 4,
+  },
+
+  SText: {
+    fontSize: 14,
+    color: '#555',
+    marginBottom: 2,
+  },
+
 });
