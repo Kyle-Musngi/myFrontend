@@ -1,4 +1,3 @@
-
 import { View, Text, Button} from "react-native";
 import {styles} from "../Style";
 import { useState } from "react";
